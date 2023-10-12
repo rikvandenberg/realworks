@@ -7,5 +7,5 @@ resources:
 
 configMapGenerator:
   - name: realworks-api-config-map
-    files:
-      - application.properties
+    envs:
+      - application.env
